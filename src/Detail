@@ -12,3 +12,13 @@ guiでファイルを受け取りファイル名を関数に渡し、どこに�
 ex) idol m@ster_radio@100.wmv -> idol m@ster
 
 ファイルに持っておく？DB？とにかくなんらかの方法で情報を持っておく必要がある
+
+**** filter.txt ****
+idol m@ster - J:\ラジオ\idol m@ster
+pl@anet sphere - J:\ラジオ\
+
+jsonp?
+HBase?
+
+
+どのフォルダにどんなタイトルのものが入っているかを解析し、振り分けようフィルタを作成する
