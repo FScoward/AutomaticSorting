@@ -3,7 +3,7 @@ import java.nio.file.Path
 
 class MakeFilter(dir: Path) {
   /*
-   * ファイル名取得
+   * フォルダ内に存在するすべてのファイル名取得
    * takeFileName -> Array[String]
    * */
   def takeFileName = {
@@ -16,6 +16,10 @@ class MakeFilter(dir: Path) {
    * */
   def extraction = {
     // コンペアとって共通部分を見る?
+    /*
+     * 形態素解析して、品詞で分ける
+     * どのフォルダに格納すべきか決める
+     * */
     
     
   }
